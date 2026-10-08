@@ -12,8 +12,8 @@
 
 ## 명령 실행 확인
 - [x] 앱 페이지가 로컬 브라우저에서 실행됨
-- [ ] `npm run build` 실제 성공 출력 미제공
-- [ ] `npm run start` 실제 성공 출력 미제공 (화면 표시만 확인)
+- [x] `npm run build` 성공: 사용자 PowerShell 화면에서 `Compiled successfully`, `/`·`/notes` 정적 페이지 생성 및 `$LASTEXITCODE` = `0` 확인 (2026-10-08)
+- [ ] `npm run start` 명령의 직접 출력 미제공 (로컬 앱 화면 표시와 카운터 수치 9는 확인)
 
 ## Git 작업
 PR #1, #2, #3은 GitHub에서 merge commit 방식으로 병합되었고, 두 로컬 폴더의 pull 결과는 제공된 로그에서 확인했다. 자세한 내용은 `GIT_WORK.md` 참조.
